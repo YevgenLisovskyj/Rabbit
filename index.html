@@ -1,123 +1,120 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <title>Сайт кандоматів </title>
+    <title>Сайт кондоматів </title>
+    <script type="text/javascript" src="assets/js/script.js"></script>
 </head>
+
 <body>
-  
-
+<!-- Верхня панель -->
 <header class="header">
-<div class="container">
-    <div class="header__inner">
-        <div class="header__logo">Rabbit</div>
-        <div > 
-            <img class="img__logo" src="assets/images/rabbit.jpg">
-        </div>
+        
+    <div class="header__logo"><img src="assets/images/rabbit.jpg"></div>
 
+    <div class="header__text">Rabbit</div>
+
+    <div class="header__nav">
         <nav class="nav">
-            <a class="nav__link active" href="#section__sup">Про нас </a>
-            <a class="nav__link" href="#">Послуги </a>
+            <a class="nav__link" href="#about">Про нас </a>
+            <a class="nav__link" href="#services">Послуги </a>
             <a class="nav__link" href="#">Новини </a>
             <a class="nav__link" href="#">Контакти </a>
             <a class="nav__link" href="#">Команда </a>
-
         </nav>
     </div>
-</div>
-
 </header> 
 
-<div class="intro"> 
+<!-- Інтро -->
+<div class="intro">
     <div class="container">
         <div class="intro__inner">
-            <h2 class="intro__sup" >Проект </h2>
+            <h2 class="intro__sup">Проект </h2>
             <h1 class="intro__title">Піклуйся про своє здоров'я разом з Rabbit </h1>
-
-            <a class="intro__button"> Дізнатись більше</a>
+            <a class="intro__button" href="#about"> Дізнатись більше</a>
         </div>
-
-         
-    </div>
-
-   
     </div>
 </div>  
 
-<section class="section">
+<!-- Про нас -->
+<section id="about">
     <div class="container">
         <div class="section__header">
-            <h3 class="section__sup" id="section__sup">Чим ми займаємося</h3>
-            <h2 class="section__title"> Коротко про це</h2>
+            <h3 class="section__sup">Про нас</h3>
+            <h2 class="section__title">Чим ми займаємося</h2>
             <div class="section__text">
-                <p> Ми замаймося установкою і продажем кандоматів , повністю іх наповнюємо товарами, 
-                    обслуговуємо , і забезпечуємо найкращу якість нашої продукції. Ми не працюємо з недовіриними
+                <p> 
+                    Ми замаймося установкою і продажем кандоматів , повністю іх наповнюємо товарами, 
+                    обслуговуємо , і забезпечуємо найкращу якість нашої продукції. Ми не працюємо з недовіреними
                     людьми , тому гарантуємо повну безпеку.
-
                 </p>
             </div>
         </div>
         <div class="fon">
             <div class="fon__op" >
-                <div class="fon__img">
-                    <img src="assets/images/fone.png" alt="">
-                </div>
-                <div class="fon__text"> Кандомат</div>
-            </div>   
-            <div class="fon__op" > 
-                <div class="fon__img">
-                    <img src="assets/images/fone.png" alt="">
+                <div class="fon__img"><img src="assets/images/fone.png"></div>
+                <div class="fon__text">Кондомат</div>
             </div>
-            <div class="fon__text"> Кандомат</div>
-        </div>   
+
             <div class="fon__op" > 
-                <div class="fon__img">
-                    <img src="assets/images/fone.png" alt="">
-                </div>  
-                <div class="fon__text"> Кандомат:<br>1200грн </div>  
-        </div>
-    </div>
-        
+                <div class="fon__img"><img src="assets/images/fone.png" alt=""></div>
+                <div class="fon__text">Кондомат</div>
+            </div>
+
+            <div class="fon__op" > 
+                <div class="fon__img"><img src="assets/images/fone.png" alt=""></div>  
+                <div class="fon__text">Кондомат</div>  
+            </div>
+        </div>  
     </div>
 </section>
 
-
-
-<div class="statistics">
-    <div class="container">
-
-        <div class="st">
-            <div class="st_op" >
-                <div class="st_num">69</div>
-                <div class="st_text">Продано</div>
-            </div>
-            <div class="st_op" >
-                <div class="st_num">69</div>
-                <div class="st_text">Продано</div>
-            </div>
-            <div class="st_op" >
-                <div class="st_num">69</div>
-                <div class="st_text">Продано</div>
-            </div>
-            <div class="st_op" >
-                <div class="st_num">69</div>
-                <div class="st_text">Продано</div>
-            </div>
-            <div class="st_op" >
-                <div class="st_num">69</div>
-                <div class="st_text">Продано</div>
-            </div>
-
+<!-- Послуги-->
+<section id="services">
+    <div class="section__header">
+        <h3 class="section__sup">Послуги</h3>
+        <h2 class="section__title">Які послуги ми надаємо</h2>
+        <div class="section__text">
+            <p> 
+                Якийсь текст
+            </p>
         </div>
     </div>
-</div>
+    <div class="statistics">
+        <div class="container">
 
+            <div class="st">
+                <div class="st_op" >
+                    <div class="st_num">69</div>
+                    <div class="st_text">Продано</div>
+                </div>
+                <div class="st_op" >
+                    <div class="st_num">69</div>
+                    <div class="st_text">Продано</div>
+                </div>
+                <div class="st_op" >
+                    <div class="st_num">69</div>
+                    <div class="st_text">Продано</div>
+                </div>
+                <div class="st_op" >
+                    <div class="st_num">69</div>
+                    <div class="st_text">Продано</div>
+                </div>
+                <div class="st_op" >
+                    <div class="st_num">69</div>
+                    <div class="st_text">Продано</div>
+                </div>
 
+            </div>
+        </div>
+    </div>
+</section>
 
-<section>
+<footer>
     <div class="container">
         <div class="section__header">
             <h3 class="section__sup">Ми працюємо з</h3>
@@ -145,11 +142,8 @@
 
             </div>
         </div>
-
-
     </div>  
-</section>
+</footer>
 
 </body>
 </html>
-

@@ -231,13 +231,9 @@ section{
 .st_op{
     flex: 1 1 0;
     padding: 50px 25px;  
-    border-left: 1px solid rgb(200, 222, 223);
+    border-left: 5px solid white;
     text-align: center;
     color: #fff;
-}
-
-.st_op:last-child{
-    border-right: 1px solid rgb(200, 222, 223);
 }
 
 .st_num{
@@ -264,13 +260,13 @@ footer{
 }
 
 .services__op{
-    flex: 1 1 0;
     margin: auto;
 
     padding-left: 85px;
     padding-right:35px ;
     position: relative;
 }
+
 .services__icon{
     position: absolute;
     top:0;
